@@ -21,12 +21,12 @@ pipeline{
                 echo "This is Stage 4"
             }
         }
-            stage("Stage 5"){
+        stage("Stage 5"){
             steps{
                 echo "This is Stage 5"
             }
-                
-            stage("Stage 6"){
+        }    
+        stage("Stage 6"){
             steps{
                 echo "This is Stage 6"
             }
